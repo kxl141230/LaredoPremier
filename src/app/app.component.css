@@ -55,3 +55,12 @@
 .button:hover {
     background-color: rgba(231, 231, 231, 0.541);
 }
+
+/* .navbar-brand {
+    font-size: 20px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* color: transparent; */
+    /* -webkit-text-fill-color: transparent; 
+} */
