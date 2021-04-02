@@ -64,3 +64,13 @@
 .navbar {
     background-color: royalblue !important;
 }
+
+.theList {
+    text-align: right !important;
+    list-style-position: inside !important;
+    float: right;
+}
+
+.navbarcolor {
+    background-color: royalblue !important;
+}
