@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { HomepageComponent } from './homepage/homepage.component';
+import { CoachespageComponent } from './coachespage/coachespage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomepageComponent
+    HomepageComponent,
+    CoachespageComponent
   ],
   imports: [
     BrowserModule,
