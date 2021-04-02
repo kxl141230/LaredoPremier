@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { HomepageComponent } from './homepage/homepage.component';
 import { CoachespageComponent } from './coachespage/coachespage.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    CoachespageComponent
+    CoachespageComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
