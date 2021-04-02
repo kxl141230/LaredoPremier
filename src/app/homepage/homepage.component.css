@@ -60,3 +60,12 @@
     /* color: transparent; */
     /* -webkit-text-fill-color: transparent; 
 } */
+
+.btn-default {
+    background-color: royalblue !important;
+}
+
+.btn-unique {
+    background-color: royalblue!important;
+    color: #fff;
+}
