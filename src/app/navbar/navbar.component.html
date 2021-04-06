@@ -14,11 +14,11 @@
                 <mdb-icon fab icon="facebook"></mdb-icon>
              </a>
           </li>
-          <li class="nav-item active"> <a routerLink="/homepage-component" class="nav-link waves-light" mdbWavesEffect>Home<span class="sr-only">(current)</span></a> </li>
-          <li class="nav-item"> <a href="https://laredopremiervb.gearupsports.net/" class="nav-link waves-light" mdbWavesEffect>Shop</a> </li>
-          <li class="nav-item"> <a class="nav-link waves-light" mdbWavesEffect>Location</a> </li>
+          <li [routerLinkActive]="['active']" class="nav-item active"> <a routerLink="/homepage-component" class="nav-link waves-light" mdbWavesEffect>Home<span class="sr-only"></span></a> </li>
+          <li [routerLinkActive]="['active']" class="nav-item"> <a href="https://laredopremiervb.gearupsports.net/" class="nav-link waves-light" mdbWavesEffect>Shop</a> </li>
+          <li [routerLinkActive]="['active']" class="nav-item"> <a class="nav-link waves-light" mdbWavesEffect>Location</a> </li>
           <!-- Dropdown -->
-          <li class="nav-item dropdown" dropdown>
+          <li [routerLinkActive]="['active']" class="nav-item dropdown" dropdown>
              <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light">
              Meet the Family<span class="caret"></span></a>
              <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
